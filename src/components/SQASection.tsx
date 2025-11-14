@@ -32,7 +32,7 @@ export default function QASection() {
     >
       <div className="absolute inset-0 bg-black/70 z-1"></div>
       <div className="relative z-10 max-w-full md:max-w-2/3 mx-auto">
-        <h2 className="text-5xl pt-16 uppercase font-heading mb-6 leading-tight text-darker">
+        <h2 className="heading mb-6 pt-16 text-darker">
           Q&A Section
         </h2>
 
@@ -54,7 +54,7 @@ export default function QASection() {
                 <AnimatePresence>
                   {isOpen && (
                     <motion.p
-                      className="mt-2 pl-1 md:pl-10 text-lighter font-body"
+                      className="mt-2 pl-1 md:pl-10 text-lighter paragraph"
                       initial={{ opacity: 0, height: 0 }}
                       animate={{ opacity: 1, height: "auto" }}
                       exit={{ opacity: 0, height: 0 }}

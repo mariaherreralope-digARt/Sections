@@ -8,7 +8,7 @@ export default function SNewsletterCollageReveal() {
     {
       src: "/images/collage3.png",
       alt: "Facial treatment",
-      className: "top-5 right-[20%] w-[200px]",
+      className: "top-[10%] right-[20%] w-[200px]",
     },
     {
       src: "/images/collage2.png",
@@ -28,7 +28,7 @@ export default function SNewsletterCollageReveal() {
   ];
 
   return (
-    <section className="relative bg-[#F9F6EE] py-24 flex justify-center items-center overflow-hidden">
+    <section className="relative bg-lighter py-24 flex justify-center items-center overflow-hidden">
       {/* Background images with animation */}
       <div className="absolute inset-0">
         {images.map((img, i) => (
@@ -67,23 +67,23 @@ export default function SNewsletterCollageReveal() {
 
       {/* Central content box */}
       <motion.div
-        className="relative z-10 bg-darker text-lighter text-center px-10 py-8 max-w-sm shadow-xl"
+        className="relative z-10 bg-dark text-lighter text-center px-10 py-8 max-w-sm shadow-xl"
         initial={{ scale: 0.9, opacity: 0, y: 20 }}
         animate={{ scale: 1, opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <p className="uppercase tracking-widest text-sm text-light mb-3">
+        <p className="oversection text-light mb-3">
           Visit our studio
         </p>
-        <h2 className="text-xl font-heading md:text-3xl  italic mb-4">
+        <h2 className="title-italic text-lighter md:text-3xl  italic mb-4">
           Where nature meets your beauty
         </h2>
-        <p className="text-light mb-8 leading-relaxed text-sm font-body">
+        <p className="text-light mb-8 paragraph">
           Whether you're juggling remote work, building a business, or just
           trying to get through a to-do list without burning out, we’ve got the
           support and tools to help you thrive.
         </p>
-        <button className="bg-[#EAE8E1] text-[#606652] px-4 py-2 text-sm font-medium uppercase tracking-wide hover:bg-white transition">
+        <button className="btn-squared">
           Our Beauty Studio
         </button>
       </motion.div>

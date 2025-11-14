@@ -17,13 +17,13 @@ export default function NewComponentTrial({ paragraph }: { paragraph: string }) 
 
   return (
     <div
-      className="flex flex-wrap items-center justify-center font-body 
+      className="flex flex-wrap items-center justify-center paragraph
       h-[100vh] max-w-[1280px] px-10 md:px-50
-      bg-dark text-lighter italic text-center "
+      bg-dark text-lighter  "
     >
       <p
         ref={container}
-        className="text-3xl md:text-[64px] leading-[1.25] font-extralight"
+        className="parallax-text"
       >
         {words.map((w, i) => (
           <Word

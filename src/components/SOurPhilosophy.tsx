@@ -10,7 +10,7 @@ export default function OurPhilosophy() {
         {/* LEFT CONTENT */}
         <div>
           <motion.h2
-            className="text-3xl md:text-4xl lg:text-5xl font-extralight font-heading leading-tight mb-6 text-dark uppercase"
+            className="heading mb-6 text-dark "
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -20,7 +20,7 @@ export default function OurPhilosophy() {
           </motion.h2>
 
           <motion.p
-             className="max-w-3xl mx-auto text-md md:text-lg font-body text-darker mb-6"
+             className="paragraph text-darker mb-6"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
@@ -31,7 +31,7 @@ export default function OurPhilosophy() {
 
           </motion.p>
           <motion.p
-            className="max-w-3xl mx-auto text-md md:text-lg font-body  text-darker mb-6"
+            className="paragraph text-darker mb-6"
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
@@ -83,11 +83,11 @@ export default function OurPhilosophy() {
               height={400}
               className="absolute top-[8%] left-[9%] w-[82%] h-[77%] object-cover rounded-md"
             /> */}
-             <div className="mt-6 grid sm:grid-cols-1 md:grid-cols-2 gap-4 font-body ">
-            <p className="italic text-darker  text-md md:text-lg ">
+             <div className="mt-6 grid sm:grid-cols-1 md:grid-cols-2 gap-8 font-body ">
+            <p className="italic paragraph font-semibold text-darker   ">
               We combine luxury and transformation because we believe deep renewal deserves both comfort and inspiration.
             </p>
-            <p className="text-darker text-md md:text-lg">
+            <p className="text-darker paragraph ">
               Each retreat is an invitation to slow down, realign, and step into a more purposeful, radiant life.
             </p>
           </div>

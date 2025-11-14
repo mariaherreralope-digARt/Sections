@@ -13,33 +13,33 @@ import SFeaturesDivideLineIcons from "@/components/SFeaturesDivideLineIcons";
 import SNewsletterCollageReveal from "@/components/SNewsletterCollageReveal";
 import SOverlapVerticalTextBox from "@/components/SOverlapVerticalTextBox";
 
-// import Hero from "@/components/Hero";
-// import AboutMe from "@/components/AboutMe";
-// import Cursos from "@/components/Cursos";
-// import OptionsOne from "@/components/OptionsOne";
-// import OptionsTwo from "@/components/OptionsTwo";
-// import Collage from "@/components/Collage";
-// import TestimonialsSection from "@/components/TestimonialsSection";
-// import Newsletter from "@/components/Newsletter";
-// import Footer from "@/components/Footer";
-// import OurPhilosophy from "@/components/OurPhilosophy";
-// import WhyUs from "@/components/WhyUs";
-// import NewComponentTrial from "@/components/NewComponentTrial";
-// import QASection from "@/components/QASection";
-// import VerticalButton from "@/components/VerticalButton"; 
-// import GoTopButton from "@/components/GoTopButton";
-// import TextParallax from "@/components/TextParallax";
-// import TextParallaxQA from "@/components/TextParallaxQA";
+import Hero from "@/components/HeroVideo";
+import AboutMe from "@/components/SAboutMe";
+import Cursos from "@/components/CardsCursos";
+import OptionsOne from "@/components/SOptionsOne";
+import OptionsTwo from "@/components/SOptionsTwo";
+import Collage from "@/components/SCollage";
+import TestimonialsSection from "@/components/STestimonialsSection";
+import Newsletter from "@/components/Newsletter";
+import Footer from "@/components/Footer";
+import OurPhilosophy from "@/components/SOurPhilosophy";
+import WhyUs from "@/components/SWhyUs";
+import NewComponentTrial from "@/components/TextNewComponentTrial";
+import QASection from "@/components/SQASection";
+import VerticalButton from "@/components/AddVerticalButton"; 
+import GoTopButton from "@/components/AddGoTopButton";
+import TextParallax from "@/components/TextParallax";
+import TextParallaxQA from "@/components/TextParallaxQA";
 
 
-// const paragraph =
-//   "Your journey deserves guidance you can trust, an environment that feels safe, and a space designed with intention.";
+const paragraph =
+  "Your journey deserves guidance you can trust, an environment that feels safe, and a space designed with intention.";
 
-//   const paragraph1 =
-//   "Every journey is unique — that’s why we offer retreats designed to nurture mind, body, and spirit in different ways.";
+  const paragraph1 =
+  "Every journey is unique — that’s why we offer retreats designed to nurture mind, body, and spirit in different ways.";
 
-//   const paragraph2 =
-//   "We know you may have questions — here are clear answers to help you feel confident before beginning your journey with us.";
+  const paragraph2 =
+  "We know you may have questions — here are clear answers to help you feel confident before beginning your journey with us.";
    
 
  
@@ -69,7 +69,7 @@ const lenis = new Lenis({
     <SFeaturesDivideLineIcons />
     <SNewsletterCollageReveal />
     <SOverlapVerticalTextBox />
-      {/* <Hero />
+      <Hero />
       <OurPhilosophy />
       <NewComponentTrial paragraph={paragraph} />
       <WhyUs />
@@ -83,7 +83,7 @@ const lenis = new Lenis({
       <Newsletter />
       <Footer />
       <GoTopButton />
-      <VerticalButton label="Book Our Next Retreat" href="/about" /> */}
+      <VerticalButton label="Book Our Next Retreat" href="/about" />
     </main>
   );
 }

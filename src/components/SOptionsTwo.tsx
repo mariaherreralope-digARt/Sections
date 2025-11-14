@@ -20,10 +20,10 @@ export default function OptionsTwo() {
             viewport={{ once: true }}
           >
             <div className="flex-1">
-              <h3 className="bg-dark px-4 py-2 inline-block font-heading italic text-lg mb-2">
+              <h3 className="bg-dark px-4 py-2 inline-block title-italic-boxed  mb-2">
                 Mindful Awakening
               </h3>
-              <p className="text-darker font-body">
+              <p className="text-darker paragraph">
                 Reconnect with inner peace through yoga, meditation, and daily practices that ground you in the present moment.
               </p>
             </div>
@@ -45,10 +45,10 @@ export default function OptionsTwo() {
             viewport={{ once: true }}
           >
             <div className="flex-1">
-              <h3 className="bg-dark px-4 py-2 inline-block font-heading italic text-lg mb-2">
+              <h3 className="bg-dark px-4 py-2 inline-block title-italic-boxed  mb-2">
                Holistic Health Reset
               </h3>
-              <p className="text-darker font-body">
+              <p className="text-darker paragraph">
                 A full-body recharge combining nutrition, detox programs, spa therapies, and energy-balancing practices.
               </p>
             </div>
@@ -70,10 +70,10 @@ export default function OptionsTwo() {
             viewport={{ once: true }}
           >
             <div className="flex-1">
-              <h3 className="bg-dark px-4 py-2 inline-block font-heading italic text-lg mb-2">
+              <h3 className="bg-dark px-4 py-2 inline-block title-italic-boxed  mb-2">
                 Business Clarity Retreat
               </h3>
-              <p className="text-darker font-body">
+              <p className="text-darker paragraph">
                 Focused days for entrepreneurs and creatives to reset, strategize, and design future growth with expert guidance.
               </p>
             </div>
@@ -104,7 +104,7 @@ export default function OptionsTwo() {
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-lighter text-3xl md:text-4xl lg:text-5xl font-extralight  font-heading uppercase leading-tight text-center max-w-md">
+          <h2 className="text-lighter heading text-center max-w-md">
            OUR <br />Mind, Body & Vision <br />RETREATS
           </h2>
         </motion.div>

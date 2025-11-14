@@ -30,10 +30,10 @@ export default function SFeaturesDivideLineIcons() {
     <div className="bg-dark py-10 ">
       <div className="max-w-4xl mx-auto sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-center  divide-y-[3px] divide-light/30  md:divide-x-[3px] md:divide-y-0">
         {features.map((f, i) => (
-          <div key={i} className="flex flex-col items-center text-center px-12 py-12">
+          <div key={i} className="flex flex-col items-center text-center px-8 py-12">
             <div className="mb-4 darker">{f.icon}</div>
-            <h3 className=" font-heading text-lighter mb-0">{f.title}</h3>
-            <p className="text-light font-body">{f.description}</p>
+            <h3 className=" title-italic-boxed text-lighter mb-0">{f.title}</h3>
+            <p className="text-light paragraph">{f.description}</p>
           </div>
         ))}
       </div>

@@ -59,10 +59,10 @@ const TestimonialsSection: FC = () => {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-extralight font-heading uppercase text-lighter mb-0">
+        <h2 className="heading text-lighter mb-0">
           What They Say
         </h2>
-        <p className="text-lg text-light font-body italic mb-4">
+        <p className=" text-light paragraph italic mb-4">
           Inspiring words from those who transformed with us.
         </p>
       </motion.div>
@@ -80,10 +80,10 @@ const TestimonialsSection: FC = () => {
           {testimonials.map((testimonial) => (
             <SwiperSlide key={testimonial.id}>
               <div className="bg-white/20 p-8 rounded-lg shadow-md text-center max-w-2xl mx-auto relative z-0">
-                <p className="text-light mb-4 font-body text-md md:text-lg leading-relaxed">
+                <p className="text-light mb-4 paragraph">
                   "{testimonial.text}"
                 </p>
-                <h4 className="text-light  font-body">{testimonial.name}</h4>
+                <h4 className="text-light  paragraph italic">{testimonial.name}</h4>
               </div>
             </SwiperSlide>
           ))}

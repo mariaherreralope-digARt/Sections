@@ -19,11 +19,11 @@ export default function TextParallaxQA({ paragraph2 }: { paragraph2: string }) {
     <div
       className="flex flex-wrap items-center justify-center font-body 
       h-[100vh] max-w-[1280px] px-10 md:px-50 
-       bg-darker text-slate-100 italic text-center "
+       bg-darker text-slate-100  "
     >
       <p
         ref={container}
-        className="text-3xl md:text-[64px] leading-[1.25] font-extralight"
+        className="parallax-text"
       >
         {words.map((w, i) => (
           <Word

@@ -55,10 +55,10 @@ export default function Collage() {
             <span className="not-italic">to Your Best Self</span>
           </p>
           <hr className="border-darker mb-6 w-3/4" />
-          <h2 className="text-5xl uppercase font-heading mb-6 leading-tight text-darker">
+          <h2 className="heading mb-6  text-darker">
             Explore <br />Our Choices 
           </h2>
-          <p className="text-lg text-darker font-body leading-relaxed">
+          <p className=" text-darker paragraph">
           Beyond our retreats, our curated courses guide you to integrate balance, clarity, and inspiration into everyday life. Learn at your own pace, with the same depth and elegance that define each of our experiences.
           </p>
         </motion.div>

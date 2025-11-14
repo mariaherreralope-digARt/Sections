@@ -14,12 +14,12 @@ export default function TextParallax({ paragraph1 }: { paragraph1: string }) {
 
   return (
     <div
-      className="flex flex-wrap items-center justify-center font-body 
-      h-[100vh] max-w-[1280px] px-10 md:px-50  bg-light text-darker italic text-center "
+      className="flex flex-wrap items-center justify-center font-body paragraph
+      h-[100vh] max-w-[1280px] px-10 md:px-50  bg-light text-darker  "
     >
       <p
         ref={container}
-        className="text-3xl md:text-[64px] leading-[1.25] font-extralight"
+        className="parallax-text"
       >
         {words.map((w, i) => (
           <Word

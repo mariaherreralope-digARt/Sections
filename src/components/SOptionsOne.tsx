@@ -40,10 +40,10 @@ export default function OptionsOne() {
             viewport={{ once: true }}
           >
             <div className="flex-1">
-              <h3 className="bg-dark px-4 py-2 inline-block font-heading italic text-lg mb-2">
+              <h3 className="bg-dark px-4 py-2 inline-block title-italic-boxed  mb-2">
                 Couples Connection
               </h3>
-              <p className="text-darker font-body">
+              <p className="text-darker paragraph">
                 A retreat to deepen intimacy, communication, and love in breathtaking, private settings.
               </p>
             </div>
@@ -65,10 +65,10 @@ export default function OptionsOne() {
             viewport={{ once: true }}
           >
             <div className="flex-1">
-              <h3 className="bg-dark px-4 py-2 inline-block font-heading italic text-lg mb-2">
+              <h3 className="bg-dark px-4 py-2 inline-block title-italic-boxed  mb-2">
                Women’s Empowerment
               </h3>
-              <p className="text-darker font-body">
+              <p className="text-darker paragraph">
                 Created to empower women through coaching, sisterhood, and practices that awaken confidence and strength.
               </p>
             </div>
@@ -90,10 +90,10 @@ export default function OptionsOne() {
             viewport={{ once: true }}
           >
             <div className="flex-1">
-              <h3 className="bg-dark px-4 py-2 inline-block font-heading italic text-lg mb-2">
+              <h3 className="bg-dark px-4 py-2 inline-block title-italic-boxed  mb-2">
                 Wellness & Longevity
               </h3>
-              <p className="text-darker font-body">
+              <p className="text-darker paragraph">
                 Programs centered on vitality, sleep optimization, and holistic living practices that extend health and energy.
               </p>
             </div>
