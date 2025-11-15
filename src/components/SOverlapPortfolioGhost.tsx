@@ -10,16 +10,16 @@ export default function SOverlapPortfolioGhost() {
         {/* Left Box */}
         <div className="relative bg-lighter px-20 py-12  md:-mr-36 z-10 flex items-center justify-center">
 <div className=''>
-          <h3 className="oversection text-gray-500 mb-2 ">
+          <h3 className="oversection text-darker mb-2 ">
             Nature and Calm
           </h3>
 
 
-          <h2 className="title-italic text-gray-700 mt-7 mb-2">
+          <h2 className="title-italic text-darker mt-7 mb-2">
             Lorem ipsum dolor sit amet
           </h2>
 
-          <p className="paragraph text-gray-600 mb-6">
+          <p className="paragraph text-darker mb-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         
           </p>

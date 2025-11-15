@@ -1,5 +1,9 @@
 /* ---------------- Fonts ---------------- */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300..700&family=Nunito+Sans:wght@200..900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Red+Hat+Display:wght@300;400;500;600;700&display=swap');
+
 
 
 /* ---------------- Tailwind (v4 syntax) ---------------- */
@@ -13,12 +17,12 @@
   /* === COLORS === */
 
   /* green & beige palette (ACTIVE) */
-  --color-dark: #6d8b74; 
+  /* --color-dark: #6d8b74; 
   --color-darker: #5f7161;
   --color-light: #d0c9c0;
   --color-lighter: #efead8;
   --color-accent: #f7f3f0;
-  --color-btt: #6d152b;
+  --color-btt: #6d152b; */
 
   /* optional alternate palette (commented) */
   /* --color-dark: #b87a5b; 
@@ -28,19 +32,38 @@
     --color-accent: #f7f3f0;
     --color-btt: #6d152b; 
   */
+/* GOLD */
+  /* --color-dark: #8c7e61; 
+    --color-darker: ##7d735c;
+    --color-light: #f8f5ef;
+    --color-lighter: #f8f5ef;
+    --color-accent: #;
+    --color-btt: #; 
+  */
 
+  /* blues/GRAYS palette */
+    --color-dark: #4a7487;
+    --color-darker: #1b2c33;
+    --color-light: #f3f3f3;
+    --color-lighter: #FFFFFF;
+    --color-accent: #;
+    --color-btt: #1b2c33;
+  
 
   /* === TYPOGRAPHY === */
 
   /* CURRENT */
-  --font-heading: "Cormorant Garamond", serif;
-  --font-body: "Nunito Sans", sans-serif;
+  /* --font-heading: "Cormorant Garamond", serif;
+  --font-body: "Nunito Sans", sans-serif; */
 
   /* alternates */
-  /*
-  --font-heading: "Montserrat", serif;
-  --font-body: "Lora", serif;
+ 
+  /* --font-body: "Montserrat", sans-serif;
+  --font-heading: "Lora", serif; */
 
+--font-body: "Red Hat Display", sans-serif;
+  --font-heading: "IBM Plex Mono", monospace;
+ /*
   --font-heading: "Playfair Display", serif;
   --font-body: "Source Sans 3", sans-serif;
 
@@ -61,7 +84,7 @@
 
 .btn-squared {
   @apply bg-btt text-lighter uppercase text-sm 
-  font-light py-2 px-6 hover:opacity-80 transition;
+  font-light py-2 px-6 hover:opacity-80 transition font-body;
 }
 
 .heading {
@@ -69,13 +92,13 @@
 }
 
 .title-italic {
-  @apply font-heading italic text-lg md:text-xl lg:text-2xl leading-tight font-semibold tracking-normal;
+  @apply font-heading italic text-lg md:text-xl lg:text-2xl leading-tight font-light tracking-normal;
 }
 .title-italic-boxed {
-  @apply font-heading italic text-sm md:text-sm lg:text-xl leading-tight font-semibold tracking-tight;
+  @apply font-heading italic text-sm md:text-sm lg:text-xl leading-tight font-light tracking-tight;
 }
 .title {
-  @apply font-heading text-base md:text-2xl leading-tight font-bold tracking-tight;
+  @apply font-heading text-base md:text-2xl leading-tight font-light tracking-tight;
 }
 
 .paragraph {
@@ -84,11 +107,11 @@
 }
 
 .oversection {
-  @apply uppercase tracking-[0.3em] text-sm font-medium;
+  @apply uppercase tracking-[0.3em] text-sm font-semibold font-body;
 }
 
 .parallax-text {
-  @apply text-3xl md:text-[54px] leading-[1.25] font-extralight tracking-tight italic  text-center;
+  @apply text-3xl md:text-[54px] leading-[1.25] font-light tracking-tight italic  text-center;
 }
 
 .bg-sacred {

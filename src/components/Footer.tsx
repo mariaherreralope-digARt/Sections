@@ -42,11 +42,11 @@ const Footer: FC = () => {
                 height={48}
                 className="h-12 rounded-lg relative z-10 hover:scale-[1.02] transition-transform duration-300 object-contain"
               /> */}
-              <span className="text-xl font-heading font-extralight uppercase text-lighter">
+              <span className="oversection text-lighter">
                 Boleh Luxury Retreats
               </span>
             </div>
-            <p className="text-light mb-6 font-body md:w-3/4">
+            <p className="text-light mb-6 paragraph md:w-3/4">
               Curated retreats that blend luxury and transformation. Inspiring
               journeys guided by world-class coaches, hosted in the world’s most
               extraordinary destinations.
@@ -76,7 +76,7 @@ const Footer: FC = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {Object.entries(footerLinks).map(([category, links]) => (
                 <div key={category}>
-                  <h3 className="text-lg mb-4 uppercase font-heading text-lighter font-extralight">
+                  <h3 className="oversection text-lighter mb-4">
                     {category}
                   </h3>
                   <ul className="space-y-2">
@@ -84,7 +84,7 @@ const Footer: FC = () => {
                       <li key={index}>
                         <a
                           href={link.href}
-                          className="text-light font-body hover:text-lighter"
+                          className="text-light  hover:text-lighter paragraph transition-colors duration-200"
                         >
                           {link.name}
                         </a>
@@ -98,11 +98,11 @@ const Footer: FC = () => {
         </div>
         <div className="border-t border-gray-200 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-600 font-body text-sm">
+            <p className="text-darker paragraph">
               © {new Date().getFullYear()} Boleh Luxury Retreats. All rights
               reserved.
             </p>
-            <p className="text-gray-600 text-sm">
+            <p className="text-darker paragraph">
               Website crafted by digARt – María Herrera ✨
             </p>
           </div>

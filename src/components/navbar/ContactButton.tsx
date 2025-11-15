@@ -49,7 +49,7 @@ const ContactButton = ({ isMenuOpen, scrolled, variant = "desktop" }: ContactBut
 
         {/* button text */}
         <span
-          className={`relative z-10 transition-colors duration-300 font-extralight ${
+          className={`relative z-10 transition-colors duration-300 font-body font-light ${
             isMenuOpen
               ? "group-hover:text-btt"
               : scrolled

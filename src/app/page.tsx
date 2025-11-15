@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import Lenis from 'lenis';
-
+import HeroHugeTextBottom from "@/components/HeroHugeTextBottom";
 import HeroRevival from "@/components/HeroRevival";
 import HeroCards from "@/components/HeroBorderLines";
 import Overlap2colPT from "@/components/SOverlap2colPT";
@@ -60,6 +60,7 @@ const lenis = new Lenis({
       {/* Background gradient effect */}
       <div className="absolute -top-28 -left-28 w-[500px] h-[500px] bg-gradient-to-tr from-red-800/20 to-yellow-600/20 rounded-full blur-[80px] -z-10"></div>
 
+    <HeroHugeTextBottom />
     <HeroRevival /> 
     <HeroCards />
     <Overlap2colPT />

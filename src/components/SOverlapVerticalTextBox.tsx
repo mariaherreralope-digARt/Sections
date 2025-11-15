@@ -12,7 +12,7 @@ export default function SpecializationSection() {
         <div className="relative flex items-center justify-center
          bg-dark text-lighter w-72 h-80  ">
           {/* Vertical Text */}
-          <span className="absolute -left-14 top-1/2 -translate-y-1/2 -rotate-90 origin-center oversection text-lighter">
+          <span className="absolute -left-16 top-1/2 -translate-y-1/2 -rotate-90 origin-center oversection text-lighter">
             Our Services
           </span>
 </div>

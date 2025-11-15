@@ -32,7 +32,7 @@ export default function QASection() {
     >
       <div className="absolute inset-0 bg-black/70 z-1"></div>
       <div className="relative z-10 max-w-full md:max-w-2/3 mx-auto">
-        <h2 className="heading mb-6 pt-16 text-darker">
+        <h2 className="heading mb-6 pt-16 text-lighter">
           Q&A Section
         </h2>
 
